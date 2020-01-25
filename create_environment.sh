@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install important development packages:
-sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+sudo apt-get install -y build-essential libssl-dev libffi-dev python-dev
 
 # Make sure pip3 is installed:
 pip3 -V
